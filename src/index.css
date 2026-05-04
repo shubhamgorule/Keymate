@@ -1,13 +1,15 @@
+@import '../design-tokens/primitives.css';
+
 :root {
   color-scheme: dark light;
-  --bg: #0c0f14;
-  --surface: #141a22;
-  --surface-2: #1c2430;
-  --text: #e8edf5;
-  --muted: #8b98ab;
-  --border: #2a3545;
-  --accent: #5b8cff;
-  --accent-contrast: #0a0e14;
+  --bg: var(--nds-neutrals-900);
+  --surface: var(--nds-neutrals-800);
+  --surface-2: color-mix(in srgb, var(--nds-neutrals-700) 55%, var(--nds-neutrals-900));
+  --text: var(--nds-neutrals-100);
+  --muted: var(--nds-neutrals-500);
+  --border: color-mix(in srgb, var(--nds-neutrals-600) 55%, transparent);
+  --accent: var(--nds-primary-main);
+  --accent-contrast: var(--nds-neutrals-white);
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans',
     sans-serif;
   line-height: 1.5;
@@ -22,14 +24,14 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #f4f6f9;
-    --surface: #ffffff;
-    --surface-2: #eef1f6;
-    --text: #111827;
-    --muted: #5c6575;
-    --border: #d8dee9;
-    --accent: #2563eb;
-    --accent-contrast: #ffffff;
+    --bg: var(--nds-neutrals-100);
+    --surface: var(--nds-neutrals-white);
+    --surface-2: var(--nds-neutrals-200);
+    --text: var(--nds-neutrals-900);
+    --muted: var(--nds-neutrals-600);
+    --border: var(--nds-neutrals-300);
+    --accent: var(--nds-primary-main);
+    --accent-contrast: var(--nds-neutrals-white);
   }
 }
 

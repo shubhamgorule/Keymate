@@ -1,0 +1,57 @@
+/**
+ * Primitive color tokens — synced from Figma (source of truth).
+ * File: https://www.figma.com/design/WRrQVjZBnyWDdtFfgwdHqp/New-Design-System
+ * Collection: New DS / Primitive / Color — mode "Default"
+ *
+ * CSS names: Figma path with "/" → "-" (e.g. Neutrals/100 → --nds-neutrals-100).
+ */
+
+:root {
+  --nds-neutrals-100: #f9fafb;
+  --nds-neutrals-200: #f4f6f8;
+  --nds-neutrals-300: #dfe3e8;
+  --nds-neutrals-400: #c4cdd5;
+  --nds-neutrals-500: #919eab;
+  --nds-neutrals-600: #637381;
+  --nds-neutrals-700: #454f5b;
+  --nds-neutrals-800: #1c252e;
+  --nds-neutrals-900: #141a21;
+  --nds-neutrals-black: #000000;
+  --nds-neutrals-white: #ffffff;
+
+  --nds-primary-darker: #004b39;
+  --nds-primary-dark: #007357;
+  --nds-primary-main: #09c799;
+  --nds-primary-light: #70dec3;
+  --nds-primary-lighter: #d2f4ec;
+
+  --nds-secondary-darker: #27097a;
+  --nds-secondary-dark: #5119b7;
+  --nds-secondary-main: #8e33ff;
+  --nds-secondary-light: #c684ff;
+  --nds-secondary-lighter: #efd6ff;
+
+  --nds-info-darker: #003768;
+  --nds-info-dark: #006c9c;
+  --nds-info-main: #00b8d9;
+  --nds-info-light: #61f3f3;
+  --nds-info-lighter: #cafdf5;
+
+  --nds-success-darker: #065e49;
+  --nds-success-dark: #118d57;
+  --nds-success-main: #22c55e;
+  --nds-success-light: #77ed8b;
+  --nds-success-lighter: #d3fcd2;
+
+  --nds-warning-darker: #7a4100;
+  --nds-warning-dark: #b76e00;
+  --nds-warning-main: #ffab00;
+  --nds-warning-light: #ffd666;
+  --nds-warning-lighter: #fff5cc;
+
+  --nds-error-darker: #7a0916;
+  --nds-error-dark: #b71d18;
+  --nds-error-main: #ff5630;
+  --nds-error-light: #ffac82;
+  --nds-error-lighter: #ffe9d5;
+}
